@@ -20,6 +20,7 @@ List* init_history()
 }
 
 
+
 void add_history(List *list, char *str)
 {
   Item *dummy = list->root;

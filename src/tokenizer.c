@@ -71,7 +71,7 @@ int count_words(char *str)
 
 char *copy_str(char *inStr, short len)
 {
-  char *p = malloc((sizeof(char) * len) + 1);
+  char *p = malloc(sizeof(char) * (len + 1));
   char *dummy = inStr;
 
   for(int i = 0; i<len; i++){
